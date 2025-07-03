@@ -32,5 +32,7 @@ public class Forked {
 
             System.out.println(count);
         }
+        in.close();
     }
+    
 }
