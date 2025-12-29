@@ -9,7 +9,8 @@ public class VasilijeInCacak {
             long x = in.nextLong();
 
             long minSum = k*(k+1)/2;
-            long maxSum = k/2*(2*n-k+1);
+            long maxSum = k*(2*n-k+1)/2;
+            System.out.println("Min : " + minSum + "\tMaxSum : " + maxSum);
 
             if(minSum <= x && x <= maxSum) {
                 System.out.println("YES");
