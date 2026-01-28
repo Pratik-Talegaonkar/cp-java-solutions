@@ -6,11 +6,11 @@ public class LongestDivisorsInterval {
         int t = in.nextInt();
         while (t-- > 0) {
             long n = in.nextLong();
-            long ans = 1;
+            long ans = 0;
             while (n % ans == 0) {
                 ans++;
             }
-            System.out.println(ans - 1);
+            System.out.println(ans);
         }
         in.close();
     }
