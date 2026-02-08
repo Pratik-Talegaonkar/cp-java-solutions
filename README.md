@@ -30,7 +30,7 @@ Languages used may include:
 - **C / C++**
 - **Python**
 (depending on the problem and mood)
-
+For now most of the questions are in Java.
 ---
 
 ## 🧠 How I Use This Repo
