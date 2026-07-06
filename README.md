@@ -1,9 +1,9 @@
-# Competitive Programming Practice
+# Competitive Programming 
 
-This repository contains my **competitive programming practice** — solved problems, experiments, and learnings as I work through the **CP-31 sheet by TLE Eliminators** and participate in contests from time to time.
+This repository contains my - solved problems, experiments, and learnings as I work through the CP-31 sheet by TLE Eliminators and participate in contests from time to time.
 
 This is not a polished library or tutorial repo.  
-It’s a **practice ground**.
+It’s a practice ground.
 
 ---
 
@@ -14,13 +14,13 @@ It’s a **practice ground**.
 - Improve logic, speed, and implementation skills
 - Revisit mistakes and patterns over time
 
-Most solutions are written with clarity in mind, but the main focus is **learning**, not perfection.
+Most solutions are written with clarity in mind, but the main focus is learning.
 
 ---
 
 ## 📂 What You’ll Find Here
 
-- Solutions to problems from the **CP-31 Sheet (TLE Eliminators)**
+- Solutions to problems from the CP-31 Sheet (TLE Eliminators)
 - Contest problem solutions (whenever I participate)
 - Code written primarily for correctness and efficiency
 - Occasional comments or notes where something interesting or tricky came up
@@ -29,7 +29,6 @@ Languages used may include:
 - **Java**
 - **C / C++**
 - **Python**
-(depending on the problem and mood)
 For now most of the questions are in Java.
 ---
 
@@ -39,8 +38,6 @@ For now most of the questions are in Java.
 - Revisit hard problems later
 - Identify common patterns (DP, greedy, binary search, etc.)
 - Measure improvement over time rather than chase ratings
-
-This repo is more about **process** than results.
 
 ---
 
@@ -55,4 +52,4 @@ This repo is more about **process** than results.
 ## ⚠️ Note
 
 Solutions here reflect my understanding **at the time of solving**.  
-Some may be suboptimal or messy — that’s part of the learning curve.
+Some may be suboptimal or messy - that’s part of the learning curve.
