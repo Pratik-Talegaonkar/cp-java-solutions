@@ -1,26 +1,32 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class MainakAndArray {
-    public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        int test = in.nextInt();
-        while(test-- > 0) {
-            int n = in.nextInt();
-            int[] a = new int[n];
-            int a1 = 0, a2 = 0, a3 = 0;
-            for(int i = 0 ; i < n ; i++) {
-                a[i] = in.nextInt();
-            }
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int t = scanner.nextInt(); 
+		while (t-- > 0) {
+			long n = scanner.nextLong(); 
+			long[] v = new long[(int) n];
+			for (int i = 0; i < n; i++) {
+				v[i] = scanner.nextLong(); 
+			}
 
-            for(int i = 0 ; i < n ; i++) {
-                a1 = Math.max(a1, a[i] - a[0]);
-                a2 = Math.max(a2, a[n-1] - a[i]);
-                if(i > 0)
-                    a3 = Math.max(a3, a[i] - a[i-1]); 
-            }
-                
-            System.out.println(Math.max(a1, Math.max(a2, a3)));
-        }
-        in.close();
-    }   
+			long answer = v[(int) n - 1] - v[0];
+
+			for (int i = 1; i < n; i++) {
+				answer = Math.max(answer, v[i] - v[0]);
+			}
+
+			for (int i = 0; i < n - 1; i++) {
+				answer = Math.max(answer, v[(int) n - 1] - v[i]);
+			}
+
+			for (int i = 0; i < n - 1; i++) {
+				answer = Math.max(answer, v[i] - v[i + 1]);
+			}
+
+			System.out.println(answer);
+		}
+		scanner.close();
+	}
 }
