@@ -1,5 +1,6 @@
 {
     "editor.inlineSuggest.edits.allowCodeShifting": "horizontal",
     "editor.inlineSuggest.edits.showCollapsed": true,
-    "editor.inlineSuggest.experimental.suppressInlineSuggestions": ""
+    "editor.inlineSuggest.experimental.suppressInlineSuggestions": "",
+    "java.debug.settings.onBuildFailureProceed": true
 }
