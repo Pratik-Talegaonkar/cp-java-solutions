@@ -11,6 +11,8 @@ public class BadBoy {
             long m = sc.nextLong();
             long i = sc.nextLong();
             long j = sc.nextLong();
+            i = j;
+            j = i;
 
             System.out.println(1 + " " + 1 + " " + n + " " + m);
         }
