@@ -3,6 +3,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 import java.io.IOException;
 public class BadBoy {
+    @SuppressWarnings("unused")
     public static void main(String[] args) throws IOException{
         FastScanner sc = new FastScanner();
         int t = sc.nextInt();
@@ -11,8 +12,6 @@ public class BadBoy {
             long m = sc.nextLong();
             long i = sc.nextLong();
             long j = sc.nextLong();
-            i = j;
-            j = i;
 
             System.out.println(1 + " " + 1 + " " + n + " " + m);
         }
